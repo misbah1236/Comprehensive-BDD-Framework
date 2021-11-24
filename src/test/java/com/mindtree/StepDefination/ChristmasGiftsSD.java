@@ -70,8 +70,7 @@ public class ChristmasGiftsSD extends Base {
 	public void destroy() {
 		report.endTest(test);
 		report.flush();
-		driver.quit();
-			
+		driver.quit();	
 		}
 	
 

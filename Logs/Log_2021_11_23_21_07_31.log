@@ -1,0 +1,114 @@
+2021-11-23 19:21:42,261 DEBUG [main] ChristmasGiftsSD:14 - URL Opened
+2021-11-23 19:21:45,536 DEBUG [main] ChristmasGiftsSD:14 - christmas gifts button is clicked in page  Home page
+2021-11-23 19:21:50,669 DEBUG [main] ChristmasGiftsSD:14 - socks button is clicked in page  christmas gifts
+2021-11-23 19:21:53,255 DEBUG [main] ChristmasGiftsSD:14 - quantity button  is send in page socks page
+2021-11-23 19:21:55,946 DEBUG [main] ChristmasGiftsSD:14 - cart button is clicked in page socks page
+2021-11-23 19:21:58,652 DEBUG [main] ChristmasGiftsSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:22:01,461 DEBUG [main] ChristmasGiftsSD:14 - home button is clicked in page home page
+2021-11-23 19:22:03,987 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:22:03,988 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:22:03,990 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:22:03,992 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:22:03,992 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:22:09,378 DEBUG [main] CorporateGiftsSD:14 - URL Opened
+2021-11-23 19:22:12,830 DEBUG [main] CorporateGiftsSD:14 - Corporate Button is clicked in page Home Page
+2021-11-23 19:22:15,225 DEBUG [main] CorporateGiftsSD:14 - name field is send in page corporate page
+2021-11-23 19:22:15,484 DEBUG [main] CorporateGiftsSD:14 - email field is send in page corporate page
+2021-11-23 19:22:15,823 DEBUG [main] CorporateGiftsSD:14 - phone field is send in page corporate page
+2021-11-23 19:22:18,358 DEBUG [main] CorporateGiftsSD:14 - Submit Button is clicked in page Corporate Page
+2021-11-23 19:22:20,688 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:22:20,689 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:22:20,689 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:22:20,690 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:22:20,690 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:22:25,440 DEBUG [main] DiwaliSD:14 - URL Opened
+2021-11-23 19:22:28,820 DEBUG [main] DiwaliSD:14 - diwali Gift button is clicked in page Home page
+2021-11-23 19:22:31,798 DEBUG [main] DiwaliSD:14 - Diya Curtain LED Lights is clicked in page result page
+2021-11-23 19:22:34,331 DEBUG [main] DiwaliSD:14 - Quantity Field is send in page Cart Page
+2021-11-23 19:22:34,929 DEBUG [main] DiwaliSD:14 - Add to cart is clicked in page Cart page
+2021-11-23 19:22:37,582 DEBUG [main] DiwaliSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:22:40,242 DEBUG [main] DiwaliSD:14 - Bigsmall pic is clicked in page cart
+2021-11-23 19:22:42,660 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:22:42,662 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:22:42,662 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:22:42,663 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:22:42,664 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:22:47,384 DEBUG [main] GiftsSD:14 - URL Opened
+2021-11-23 19:22:50,734 DEBUG [main] GiftsSD:14 - Gifts For Girls is clicked in page Home Page
+2021-11-23 19:22:56,488 DEBUG [main] GiftsSD:14 - Scratch World Map is clicked in page result page
+2021-11-23 19:22:58,990 DEBUG [main] GiftsSD:14 - quantity button  is send in page socks page
+2021-11-23 19:22:59,567 DEBUG [main] GiftsSD:14 - cart button is clicked in page socks page
+2021-11-23 19:23:02,163 DEBUG [main] GiftsSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:23:04,891 DEBUG [main] GiftsSD:14 - Bigsmall pic is clicked in page cart page
+2021-11-23 19:23:07,314 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:23:07,316 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:23:07,316 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:23:07,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:23:07,318 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:23:11,955 DEBUG [main] HomeDecorSD:14 - URL Opened
+2021-11-23 19:23:15,088 DEBUG [main] HomeDecorSD:14 - Home decor button is clicked in page  Home page
+2021-11-23 19:23:19,967 DEBUG [main] HomeDecorSD:14 -  lamp button is clicked in page home decor page
+2021-11-23 19:23:22,534 DEBUG [main] HomeDecorSD:14 - quantity button is send in page lamp page
+2021-11-23 19:23:25,192 DEBUG [main] HomeDecorSD:14 - cart button is clicked in page lamp page
+2021-11-23 19:23:27,865 DEBUG [main] HomeDecorSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:23:30,639 DEBUG [main] HomeDecorSD:14 - home button is clicked in page home page
+2021-11-23 19:23:33,074 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:23:33,076 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:23:33,076 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:23:33,077 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:23:33,078 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:23:37,797 DEBUG [main] NewyearSD:14 - URL Opened
+2021-11-23 19:23:40,894 DEBUG [main] NewyearSD:14 - newyear Gift button is clicked in page Home page
+2021-11-23 19:23:46,400 DEBUG [main] NewyearSD:14 - Golf Coffee Mug is clicked in page result page
+2021-11-23 19:23:48,921 DEBUG [main] NewyearSD:14 - Quantity Field is send in page Cart Page
+2021-11-23 19:23:51,508 DEBUG [main] NewyearSD:14 - Add to cart is clicked in page Cart page
+2021-11-23 19:23:54,133 DEBUG [main] NewyearSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:23:57,101 DEBUG [main] NewyearSD:14 - Bigsmall pic is clicked in page cart
+2021-11-23 19:23:59,488 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:23:59,489 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:23:59,489 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:23:59,490 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:23:59,490 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:24:04,245 DEBUG [main] PersonalizedSD:14 - URL Opened
+2021-11-23 19:24:07,329 DEBUG [main] PersonalizedSD:14 - Personalize Gift button is clicked in page Home page
+2021-11-23 19:24:15,590 DEBUG [main] PersonalizedSD:14 - result is clicked in page Personalize Gift page
+2021-11-23 19:24:18,313 DEBUG [main] PersonalizedSD:14 - Quantity Field is send in page Cart Page
+2021-11-23 19:24:18,696 DEBUG [main] PersonalizedSD:14 - name Field is send in page Cart Page
+2021-11-23 19:24:21,299 DEBUG [main] PersonalizedSD:14 - Add to cart is clicked in page Cart page
+2021-11-23 19:24:26,803 DEBUG [main] PersonalizedSD:14 - home button is clicked in page home page
+2021-11-23 19:24:29,210 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:24:29,216 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:24:29,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:24:29,218 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:24:29,218 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:24:33,574 DEBUG [main] RakhiSD:14 - URL Opened
+2021-11-23 19:24:36,827 DEBUG [main] RakhiSD:14 - rakhi button is clicked in page Home page
+2021-11-23 19:24:41,880 DEBUG [main] RakhiSD:14 - Bhaiya Ciao Rakhi is clicked in page result page
+2021-11-23 19:24:44,496 DEBUG [main] RakhiSD:14 - Quantity Field is send in page Cart Page
+2021-11-23 19:24:47,098 DEBUG [main] RakhiSD:14 - Add to cart is clicked in page Cart page
+2021-11-23 19:24:49,705 DEBUG [main] RakhiSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:24:52,387 DEBUG [main] RakhiSD:14 - Bigsmall pic is clicked in page cart
+2021-11-23 19:24:54,790 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:24:54,791 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:24:54,792 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:24:54,793 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:24:54,793 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:24:59,263 DEBUG [main] SecretSantaSD:14 - URL Opened
+2021-11-23 19:25:02,644 DEBUG [main] SecretSantaSD:14 - secretsanta button is clicked in page  Home page
+2021-11-23 19:25:07,393 DEBUG [main] SecretSantaSD:14 - tissue box  is clicked in page  secretsanta page
+2021-11-23 19:25:09,955 DEBUG [main] SecretSantaSD:14 -  cart button is send in page tissue page
+2021-11-23 19:25:12,572 DEBUG [main] SecretSantaSD:14 - cart button is clicked in page socks page
+2021-11-23 19:25:15,214 DEBUG [main] SecretSantaSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:25:17,964 DEBUG [main] SecretSantaSD:14 - home button is clicked in page home page
+2021-11-23 19:25:20,384 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2021-11-23 19:25:20,385 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2021-11-23 19:25:20,386 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-11-23 19:25:20,387 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-11-23 19:25:20,387 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-11-23 19:25:24,874 DEBUG [main] WhatsNewSD:14 - URL Opened
+2021-11-23 19:25:27,903 DEBUG [main] WhatsNewSD:14 - Personalize Gift button is clicked in page Home page
+2021-11-23 19:25:33,030 DEBUG [main] WhatsNewSD:14 - Travel Pocket Diary is clicked in page result page
+2021-11-23 19:25:35,659 DEBUG [main] WhatsNewSD:14 - Quantity Field is send in page Cart Page
+2021-11-23 19:25:38,335 DEBUG [main] WhatsNewSD:14 - Add to cart is clicked in page Cart page
+2021-11-23 19:25:41,055 DEBUG [main] WhatsNewSD:14 - Close Button is clicked in page Cart Page
+2021-11-23 19:25:43,836 DEBUG [main] WhatsNewSD:14 - Bigsmall pic is clicked in page cart

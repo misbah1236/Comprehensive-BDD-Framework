@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="266.472" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD./driver/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD\target\test-classes;C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD\target\classes;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Misbah\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Misbah\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Misbah\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Misbah\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Misbah\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Misbah\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Misbah\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Misbah\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Misbah\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Misbah\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Misbah\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Misbah\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Misbah\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\Misbah\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Misbah\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Misbah\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-testng\7.0.0\cucumber-testng-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Misbah\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Misbah\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Misbah\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Misbah\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Misbah\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\Misbah\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\Misbah\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Misbah\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Misbah\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Misbah\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Misbah\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Misbah\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Misbah\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Misbah\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Misbah\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Misbah\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Misbah\AppData\Local\Temp\surefire422464242869207963\surefirebooter16218428137312729485.jar C:\Users\Misbah\AppData\Local\Temp\surefire422464242869207963 2021-11-24T11-32-33_324-jvmRun1 surefire10420034174635572608tmp surefire_02494896160778562005tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD\target\test-classes;C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD\target\classes;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Misbah\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Misbah\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Misbah\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Misbah\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Misbah\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Misbah\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Misbah\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Misbah\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Misbah\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Misbah\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Misbah\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Misbah\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Misbah\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Misbah\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\Misbah\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Misbah\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Misbah\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-testng\7.0.0\cucumber-testng-7.0.0.jar;C:\Users\Misbah\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Misbah\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Misbah\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Misbah\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Misbah\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Misbah\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\Misbah\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\Misbah\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Misbah\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Misbah\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Misbah\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Misbah\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Misbah\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Misbah\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Misbah\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Misbah\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Misbah\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Misbah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Users\Misbah\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Misbah\AppData\Local\Temp\surefire422464242869207963\surefirebooter16218428137312729485.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="Misbah"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Misbah\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Misbah\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\Users\Misbah\eclipse-workspaceNew\ComprehensiveBDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\Misbah\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Misbah/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/Misbah/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\jdk\jdk-17\bin;C:\Program Files\Git\cmd;C:\Program Files\Notepad++;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Misbah\AppData\Local\Microsoft\WindowsApps;C:\Users\Misbah\AppData\Local\Programs\Microsoft VS Code\bin;E:\Maven\apache-maven-3.8.2\bin;;C:\Users\Misbah\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Add Christmas Gift to Cart&quot;, &quot;Optional[Christmas Gifts Automate]&quot;](1)" classname="com.mindtree.runner.Runner" time="30.728">
+    <system-out><![CDATA[11-24-2021 11:32:43 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - URL Opened
+11-24-2021 11:32:46 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - christmas gifts button is clicked in page  Home page
+11-24-2021 11:32:51 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - socks button is clicked in page  christmas gifts
+11-24-2021 11:32:54 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - quantity button  is send in page socks page
+11-24-2021 11:32:56 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - cart button is clicked in page socks page
+11-24-2021 11:32:59 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:33:02 ExtentLogUtilities.java DEBUG [main] StepDefination.ChristmasGiftsSD 14 - home button is clicked in page home page
+11-24-2021 11:33:05 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:33:05 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:33:05 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:33:05 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:33:05 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No such property [maxBackupIndex] in com.mindtree.utilities.Log.
+log4j:WARN No such property [maxFileSize] in com.mindtree.utilities.Log.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27640
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:32:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add Corporate Gift to Cart&quot;, &quot;Optional[Corporate Gift Automate]&quot;](2)" classname="com.mindtree.runner.Runner" time="16.801">
+    <system-out><![CDATA[11-24-2021 11:33:11 ExtentLogUtilities.java DEBUG [main] StepDefination.CorporateGiftsSD 14 - URL Opened
+11-24-2021 11:33:14 ExtentLogUtilities.java DEBUG [main] StepDefination.CorporateGiftsSD 14 - Corporate Button is clicked in page Home Page
+11-24-2021 11:33:16 ExtentLogUtilities.java DEBUG [main] StepDefination.CorporateGiftsSD 14 - name field is send in page corporate page
+11-24-2021 11:33:17 ExtentLogUtilities.java DEBUG [main] StepDefination.CorporateGiftsSD 14 - email field is send in page corporate page
+11-24-2021 11:33:17 ExtentLogUtilities.java DEBUG [main] StepDefination.CorporateGiftsSD 14 - phone field is send in page corporate page
+11-24-2021 11:33:20 ExtentLogUtilities.java DEBUG [main] StepDefination.CorporateGiftsSD 14 - Submit Button is clicked in page Corporate Page
+11-24-2021 11:33:22 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:33:22 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:33:22 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:33:22 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:33:22 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6161
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:33:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add Diwali Gift to Cart&quot;, &quot;Optional[Diwali Gift Automate]&quot;](3)" classname="com.mindtree.runner.Runner" time="26.496">
+    <system-out><![CDATA[11-24-2021 11:33:28 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - URL Opened
+11-24-2021 11:33:32 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - diwali Gift button is clicked in page Home page
+11-24-2021 11:33:37 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - Diya Curtain LED Lights is clicked in page result page
+11-24-2021 11:33:40 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - Quantity Field is send in page Cart Page
+11-24-2021 11:33:41 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - Add to cart is clicked in page Cart page
+11-24-2021 11:33:43 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:33:46 ExtentLogUtilities.java DEBUG [main] StepDefination.DiwaliSD 14 - Bigsmall pic is clicked in page cart
+11-24-2021 11:33:49 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:33:49 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:33:49 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:33:49 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:33:49 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 31906
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:33:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add Gift to Cart&quot;, &quot;Optional[Gift DropDown Automate]&quot;](4)" classname="com.mindtree.runner.Runner" time="26.834">
+    <system-out><![CDATA[11-24-2021 11:33:55 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - URL Opened
+Gifts for Guys
+Gifts For Girls
+11-24-2021 11:33:58 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - Gifts For Girls is clicked in page Home Page
+11-24-2021 11:34:04 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - Scratch World Map is clicked in page result page
+11-24-2021 11:34:07 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - quantity button  is send in page socks page
+11-24-2021 11:34:08 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - cart button is clicked in page socks page
+11-24-2021 11:34:10 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:34:13 ExtentLogUtilities.java DEBUG [main] StepDefination.GiftsSD 14 - Bigsmall pic is clicked in page cart page
+11-24-2021 11:34:15 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:34:15 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:34:15 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:34:15 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:34:15 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 41006
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:33:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add HomeDecor Gift to Cart&quot;, &quot;Optional[HomeDecor Gift Automate]&quot;](5)" classname="com.mindtree.runner.Runner" time="26.679">
+    <system-out><![CDATA[11-24-2021 11:34:21 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 - URL Opened
+11-24-2021 11:34:24 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 - Home decor button is clicked in page  Home page
+11-24-2021 11:34:29 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 -  lamp button is clicked in page home decor page
+11-24-2021 11:34:32 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 - quantity button is send in page lamp page
+11-24-2021 11:34:34 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 - cart button is clicked in page lamp page
+11-24-2021 11:34:37 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:34:40 ExtentLogUtilities.java DEBUG [main] StepDefination.HomeDecorSD 14 - home button is clicked in page home page
+11-24-2021 11:34:42 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:34:42 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:34:42 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:34:42 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:34:42 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27568
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:34:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add newyear Gift to Cart&quot;, &quot;Optional[Newyear Gift Automate]&quot;](6)" classname="com.mindtree.runner.Runner" time="26.383">
+    <system-out><![CDATA[11-24-2021 11:34:47 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - URL Opened
+11-24-2021 11:34:50 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - newyear Gift button is clicked in page Home page
+11-24-2021 11:34:56 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - Golf Coffee Mug is clicked in page result page
+11-24-2021 11:34:58 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - Quantity Field is send in page Cart Page
+11-24-2021 11:35:01 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - Add to cart is clicked in page Cart page
+11-24-2021 11:35:04 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:35:06 ExtentLogUtilities.java DEBUG [main] StepDefination.NewyearSD 14 - Bigsmall pic is clicked in page cart
+11-24-2021 11:35:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:35:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:35:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:35:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:35:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 9393
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:34:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add Personalized Gift to Cart&quot;, &quot;Optional[Personalized Gift Automate]&quot;](7)" classname="com.mindtree.runner.Runner" time="29.925">
+    <system-out><![CDATA[11-24-2021 11:35:14 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - URL Opened
+11-24-2021 11:35:18 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - Personalize Gift button is clicked in page Home page
+11-24-2021 11:35:26 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - result is clicked in page Personalize Gift page
+11-24-2021 11:35:28 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - Quantity Field is send in page Cart Page
+11-24-2021 11:35:28 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - name Field is send in page Cart Page
+11-24-2021 11:35:31 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - Add to cart is clicked in page Cart page
+11-24-2021 11:35:36 ExtentLogUtilities.java DEBUG [main] StepDefination.PersonalizedSD 14 - home button is clicked in page home page
+11-24-2021 11:35:39 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:35:39 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:35:39 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:35:39 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:35:39 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 4003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:35:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add rakhi Gift to Cart&quot;, &quot;Optional[Rakhi Gift Automate]&quot;](8)" classname="com.mindtree.runner.Runner" time="27.276">
+    <system-out><![CDATA[11-24-2021 11:35:44 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - URL Opened
+11-24-2021 11:35:48 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - rakhi button is clicked in page Home page
+11-24-2021 11:35:53 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - Bhaiya Ciao Rakhi is clicked in page result page
+11-24-2021 11:35:56 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - Quantity Field is send in page Cart Page
+11-24-2021 11:35:58 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - Add to cart is clicked in page Cart page
+11-24-2021 11:36:01 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:36:03 ExtentLogUtilities.java DEBUG [main] StepDefination.RakhiSD 14 - Bigsmall pic is clicked in page cart
+11-24-2021 11:36:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:36:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:36:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:36:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:36:06 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 7413
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:35:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add Secret Santa Gift to Cart&quot;, &quot;Optional[Secret Santa Gift Automate]&quot;](9)" classname="com.mindtree.runner.Runner" time="27.621">
+    <system-out><![CDATA[11-24-2021 11:36:12 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 - URL Opened
+11-24-2021 11:36:16 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 - secretsanta button is clicked in page  Home page
+11-24-2021 11:36:21 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 - tissue box  is clicked in page  secretsanta page
+11-24-2021 11:36:23 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 -  cart button is send in page tissue page
+11-24-2021 11:36:26 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 - cart button is clicked in page socks page
+11-24-2021 11:36:28 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:36:31 ExtentLogUtilities.java DEBUG [main] StepDefination.SecretSantaSD 14 - home button is clicked in page home page
+11-24-2021 11:36:33 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11-24-2021 11:36:33 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11-24-2021 11:36:33 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11-24-2021 11:36:33 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11-24-2021 11:36:33 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Misbah/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 13108
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:36:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add What&apos;sNew Gift to Cart&quot;, &quot;Optional[What&apos;sNew Gift Automate]&quot;](10)" classname="com.mindtree.runner.Runner" time="26.428">
+    <system-out><![CDATA[11-24-2021 11:36:39 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - URL Opened
+11-24-2021 11:36:42 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - Personalize Gift button is clicked in page Home page
+11-24-2021 11:36:47 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - Travel Pocket Diary is clicked in page result page
+11-24-2021 11:36:50 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - Quantity Field is send in page Cart Page
+11-24-2021 11:36:52 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - Add to cart is clicked in page Cart page
+11-24-2021 11:36:55 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - Close Button is clicked in page Cart Page
+11-24-2021 11:36:58 ExtentLogUtilities.java DEBUG [main] StepDefination.WhatsNewSD 14 - Bigsmall pic is clicked in page cart
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 18808
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 24, 2021 11:36:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -11,6 +11,4 @@ public class ChristmasGiftsUi {
 	public static By close=By.cssSelector("button.drawer__close-button.js-drawer-close");
 	public static By getHome=By.cssSelector("img.small--hide");
 	
-	
-
 }
